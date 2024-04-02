@@ -1,0 +1,5 @@
+name: PlayerSmallText
+version: '1.0'
+main: me.nettychannell.playersmalltext.PlayerSmallText
+softdepend:
+  - PlaceholderAPI

@@ -1,0 +1,8 @@
+features:
+  join-message:
+    enabled: true
+    format: "&7Welcome to the server, &6%player%&7!" # %displayname% too
+  chat-format:
+    enabled: true
+    message-small-text: false
+    format: "&7[&6%player%&7] &f%message%" # %displayname% too
