@@ -60,7 +60,7 @@ public class GeneralListener implements Listener {
                 format = PlaceholderAPI.setBracketPlaceholders(player, format);
             }
 
-            e.setFormat(ChatUtils.color(format));
+            e.setFormat(ChatUtils.color(format).replace("%","%%"));
         }
     }
 
